@@ -3,7 +3,7 @@
 .parent {
   display: flex;
   width: 100%;
-  border: 2px solid red;
+  // border: 2px solid red;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -12,8 +12,8 @@
 
 .child1,
 .child2 {
-  border: 2px solid blue;
-  min-width: 300px;
+  // border: 2px solid blue;
+  min-width: 320px;
   min-height: 200px;
   flex: 1;
   padding: 10px;
@@ -23,4 +23,5 @@
 }
 .child2 {
   padding-top: 5rem;
+  padding-inline: 10px;
 }

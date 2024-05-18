@@ -18,17 +18,17 @@ const HomePage = () => {
               
           </div>
           <div className='child2'>
-          <h3>Welcome to YumSecrets</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis explicabo eius inventore reprehenderit alias eos facilis, ipsa est asperiores repellendus!</p>
+          <h1>Welcome to YumSecrets</h1>
+              <p>Cooking is like painting or writing a song. Just as there are only so many notes or colors, there are only so many flavors—it’s how you combine them that sets you apart.!</p>
           </div>
         </div>
-        <SearchForm />
         <h1 className='text-color header-title ls-2'>
-          What are your favorite cuisines?
+          What would you like to cook?
         </h1>
         <p className='text-uppercase text-color my-3 ls-1'>
-          personalize your experience
+          Excellence In Every Dish
         </p>
+        <SearchForm />
       </div>
       {mealsLoading ? (
         <Loader />
