@@ -77,8 +77,11 @@ select {
 /* custom utility classes */
 .container {
   max-width: 1320px;
-  margin: 0 auto;
   padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: auto;
 }
 
 /* flexbox and grid */
@@ -426,15 +429,19 @@ select {
   position: relative;
   font-size: 24px;
   padding: 4px 0;
-  position: relative;
+
+  // border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
 
   &::after {
     content: '';
     position: absolute;
-    top: 100%;
+    top: 80%;
     left: 0;
     height: 4px;
-    width: 80px;
+    width: 100%;
     background-color: $clr-orange;
   }
 }

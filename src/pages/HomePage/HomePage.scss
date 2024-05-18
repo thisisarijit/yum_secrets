@@ -3,22 +3,24 @@
 .parent {
   display: flex;
   width: 100%;
-  height: 200px;
   border: 2px solid red;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 10px;
+  height: min-content;
 }
 
 .child1,
 .child2 {
   border: 2px solid blue;
-  min-width: 400px;
+  min-width: 300px;
+  min-height: 200px;
   flex: 1;
+  padding: 10px;
 }
-.child1{
+.child1 {
   background: url('../../assets/images/header_image.png') center/cover no-repeat;
 }
-.child2{
-    padding-top: 5rem;
+.child2 {
+  padding-top: 5rem;
 }
