@@ -12,6 +12,7 @@ const MealDetailsPage = () => {
   // const { categories, dispatch, meal, categoryLoading, mealLoading } = useMealContext()
   const { dispatch, meal, mealLoading } = useMealContext()
 
+  // console.log(meal)
   useEffect(() => {
     startFetchSingleMeal(dispatch, id)
   }, [id, dispatch])
@@ -27,7 +28,7 @@ const MealDetailsPage = () => {
 
       if (props.includes('strMeasure')) {
         if (meal[0][props]) {
-          if (meal[0][props].length > 1) {
+          if (meal[0][props].trim().length > 0) {
             measuresArr.push(meal[0][props])
           }
         }
@@ -48,6 +49,8 @@ const MealDetailsPage = () => {
       measures: measuresArr,
     }
   }
+
+  // console.log('##################' + ingredientsArr, measuresArr)
 
   return (
     <main className='main-content bg-whitesmoke'>
