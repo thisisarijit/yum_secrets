@@ -20,7 +20,32 @@
 }
 .child1 {
   background: url('../../assets/images/header_image.png') center/cover no-repeat;
+  transition: 5s;
+
+  animation: animate 30s ease-in-out 1s infinite alternate-reverse backwards ;
 }
+
+@keyframes animate {
+  0%{
+    background-image: url("../../assets/images/header_image2.png");
+  }
+  20%{
+    background-image: url("../../assets/images/recipe\ \(7\).png");
+  }
+  40%{
+    background-image: url("../../assets/images/header_image.png");
+  }
+  60%{
+    background-image: url("../../assets/images/header_image2.png");
+  }
+  80%{
+    background-image: url("../../assets/images/recipe\ \(7\).png");
+  }
+  100%{
+    background-image: url("../../assets/images/header_image.png");
+  }
+}
+
 .child2 {
   padding-top: 5rem;
   padding-inline: 10px;

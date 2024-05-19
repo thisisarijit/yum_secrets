@@ -1,8 +1,30 @@
 @import '../../App.scss';
 
 .footer {
+  color: $clr-whitesmoke;
   display: flex;
-  justify-content: space-around;
+  // justify-content: center;
+  justify-content: space-evenly;
   padding-block: 10px;
-  color: $clr-whitesmoke
+  // border: 2px solid red;
+}
+
+.pic{
+    width: 95px;
+    height: 30px;
+    margin: 10px;
+}
+
+.credit{
+  color: $clr-whitesmoke;
+  background: $clr-dark;
+  text-align: center;
+  min-height: 40px;
+  display: flex;
+  // padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.yum{
+  color: $clr-black;
 }

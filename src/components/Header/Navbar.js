@@ -28,8 +28,8 @@ const Navbar = () => {
         <div className='navbar-content text-white'>
           <div className='brand-and-toggler flex align-center justify-between'>
             <Link to='/' className='navbar-brand fw-3 fs-22 flex align-center'>
-              <MdFoodBank />
-              <span className='navbar-brand-text fw-7'>YumSecrets</span>
+              {/* <MdFoodBank /> */}
+              <span className='navbar-brand-text fw-7'> </span>
             </Link>
             <div className='navbar-btns flex align-center'>
               <button

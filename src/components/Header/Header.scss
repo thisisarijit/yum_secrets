@@ -8,6 +8,10 @@
 
   .navbar-brand-text {
     margin-left: 5px;
+    min-width: 150px;
+    min-height: 40px;
+    background: transparent url('./logo.png') center/cover no-repeat;
+    // border: 2px solid red;
   }
   .navbar-search-btn {
     margin-right: 12px;
@@ -74,7 +78,7 @@
     &:hover {
       .btn-icon {
         transform: scale(0.9);
-        color: $clr-orange;
+        color: $clr-green;
       }
       background: $clr-white;
     }
