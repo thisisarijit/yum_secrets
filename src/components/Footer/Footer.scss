@@ -30,11 +30,20 @@
   background: $clr-dark;
   text-align: center;
   min-height: 30px;
-  // display: flex;
-  // padding: 10px;
   align-items: center;
   justify-content: center;
 }
 .yum{
   color: $clr-black;
+}
+
+@media (max-width:600px) {
+  .usefulLinks{
+    display: none;
+  }
+}
+@media (max-width:400px) {
+  .contactus{
+    display: none;
+  }
 }

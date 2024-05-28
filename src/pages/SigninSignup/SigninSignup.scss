@@ -1,1 +1,120 @@
 @import '../../App.scss';
+
+.container-login{
+    border: 1px solid grey;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 432px;
+    width: 90%;
+    background: $clr-whitesmoke;
+    padding-bottom: 30px;
+    box-shadow: 0 .1rem 1rem rgb(0, 0, 0);
+}
+.logo{
+    max-width: 20px;
+    height: 20px;
+}
+
+.header-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 20x;   
+}
+
+.text{
+    color: $clr-black;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: $clr-black;
+    border-radius: 9px;
+}
+
+.inputs-login{
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-login{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 57px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input-login img{
+    margin: 0px 30px;
+}
+
+.input-login input{
+    height: 36px;
+    width: 288px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.forgot-password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding-left: 44px;
+    margin-top: 30px;
+    color: #797979;
+    font-size: 13px;
+}
+
+.forgot-password span{
+    color: #4C00B4;
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 43px auto;
+    margin-bottom: 0px;
+    width: 90%;
+    gap: 10px;
+}
+
+.submit-login{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 50%;
+    height: 42px;
+    color: #fff;
+    background: $clr-orange;
+    border-radius: 36px;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}
+

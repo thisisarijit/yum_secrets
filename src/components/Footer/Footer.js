@@ -27,7 +27,7 @@ function Footer() {
         </div>
         
       </div>
-      <div>
+      <div className='contactus'>
         <h3>Contact Us</h3>
         <div className='my-4'> 
             <a href="/">98765 43210</a>
@@ -39,7 +39,7 @@ function Footer() {
             <a href="/">yumsecrets@gmail.com</a>
         </div>
       </div>
-      <div>
+      <div className='usefulLinks'>
         <h3>Useful Links</h3>
         <div className='my-4'>
             <a href="/">FAQ's</a>
