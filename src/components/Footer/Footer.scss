@@ -4,9 +4,19 @@
   color: $clr-whitesmoke;
   display: flex;
   // justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-block: 10px;
   // border: 2px solid red;
+}
+
+.footer-des{
+  width: 50%;
+}
+
+.follow{
+  display: flex;
+  // justify-content: center;
+  align-items: center;
 }
 
 .pic{
@@ -19,8 +29,8 @@
   color: $clr-whitesmoke;
   background: $clr-dark;
   text-align: center;
-  min-height: 40px;
-  display: flex;
+  min-height: 30px;
+  // display: flex;
   // padding: 10px;
   align-items: center;
   justify-content: center;
