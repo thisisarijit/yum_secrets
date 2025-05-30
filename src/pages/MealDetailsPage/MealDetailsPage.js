@@ -12,7 +12,7 @@ const MealDetailsPage = () => {
   // const { categories, dispatch, meal, categoryLoading, mealLoading } = useMealContext()
   const { dispatch, meal, mealLoading } = useMealContext()
 
-  // console.log(meal)
+  console.log(meal)
   useEffect(() => {
     startFetchSingleMeal(dispatch, id)
   }, [id, dispatch])
